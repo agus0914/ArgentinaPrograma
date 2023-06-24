@@ -8,5 +8,5 @@ let indice = cita.indexOf(substring);
 console.log("El indice del substring es: " + indice);
 
 let citaArreglo  = cita.split(" ");
-let citaRevisada = citaArreglo.splice(0,5);
+let citaRevisada = citaArreglo.splice(0,5).toString();
 console.log(citaRevisada);
